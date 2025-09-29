@@ -30,9 +30,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  firest11
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: jekyll/minima
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
+minima:
+  skin: dark
 
 # Exclude from processing.
 # The following items will not be processed, by default.
