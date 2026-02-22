@@ -1,0 +1,6 @@
+title: firest11
+description: "CV, blog and projects by firest11"
+url: "https://firest11.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: /:categories/:title/
