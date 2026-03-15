@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+  <meta name="description" content="{{ site.description }}">
+</head>
+<body>
+  <div class="site-wrap">
+    <header class="site-header">
+      <div class="inner">
+        <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <p class="site-desc">{{ site.description }}</p>
+        <nav class="site-nav">
+          <a href="{{ '/bio.html' | relative_url }}">Bio</a>
+          <a href="{{ '/' | relative_url }}">Blog</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="inner">
+        <p>Built with GitHub Pages.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

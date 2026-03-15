@@ -4,3 +4,7 @@ url: "https://firest11.github.io"
 baseurl: ""
 markdown: kramdown
 permalink: /:categories/:title/
+pagination:
+  enabled: true
+plugins:
+  - jekyll-paginate-v2
