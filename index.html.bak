@@ -14,8 +14,8 @@
       <nav>
         <ul>
           <li><a href="/bio.html">Bio</a></li>
-          <li><a href="/">Home</a></li>
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/index.md">Home</a></li>
+          <li><a href="/blog.html">Blog</a></li>
         </ul>
       </nav>
   </header>
@@ -23,7 +23,7 @@
   <main>
       <section>
         <h2>Welcome</h2>
-        <p>Check out my <a href="/bio.html">Bio</a> or read my <a href="/blog/">Blog</a>!</p>
+        <p>Check out my <a href="/bio.html">Bio</a> or read my <a href="/blog.html">Blog</a>!</p>
       </section>
   </main>
 
